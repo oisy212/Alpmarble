@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Alp Marble - Mermer Katalog Sitesi">
+    <meta name="keywords" content="mermer, Alp Marble, katalog, doğal taş">
+    <meta name="author" content="GitHub Copilot">
+    <title>Alp Marble - Katalog</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/alp-marble-logo.png" alt="Alp Marble Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#" data-lang="home">Anasayfa</a></li>
+                <li><a href="#" data-lang="products">Ürünler</a></li>
+                <li><a href="#" data-lang="about">Hakkımızda</a></li>
+                <li><a href="#" data-lang="contact">İletişim</a></li>
+                <li>
+                    <select id="language-selector">
+                        <option value="tr">Türkçe</option>
+                        <option value="en">English</option>
+                        <option value="pt">Português</option>
+                    </select>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h1 data-lang="heroTitle">Alp Marble - Mermerin Zarafeti</h1>
+        <p data-lang="heroDescription">Doğal taşın eşsiz güzelliğiyle mekanlarınıza değer katın.</p>
+        <a href="#" class="button" data-lang="discover">Ürünlerimizi Keşfedin</a>
+    </section>
+
+    <section id="products">
+        <h2 data-lang="productsTitle">Ürünlerimiz</h2>
+        <div class="product-grid">
+            <div class="product-item">
+                <img src="images/urun1.jpg" alt="Ürün 1">
+                <h3 data-lang="product1Title">Ürün Adı 1</h3>
+                <p data-lang="product1Description">Ürün açıklaması.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2 data-lang="aboutTitle">Hakkımızda</h2>
+        <p data-lang="aboutDescription">Alp Marble olarak...</p>
+    </section>
+
+    <footer>
+        <p data-lang="footer">&copy; 2025 Alp Marble</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
